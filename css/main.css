@@ -3,17 +3,26 @@ html, body {
     margin: 0;
 }
 
+@keyframes bg {
+    from {background-color: transparent;}
+    /* to {background-image: url("../assets/DSC04605.jpg");} */
+    to {background-color: aquamarine;}
+}
+
 .flex-container {
     display: flex;
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
     padding: 0;
     margin: 0;
+    animation: bg 1s ease-in 0.5s;
+    animation-fill-mode: forwards;
 }
 
 .row {
