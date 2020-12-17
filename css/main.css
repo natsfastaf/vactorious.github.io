@@ -5,7 +5,6 @@ html, body {
 
 @keyframes bg {
     from {background-color: transparent;}
-    /* to {background-image: url("../assets/DSC04605.jpg");} */
     to {background-color: aquamarine;}
 }
 
